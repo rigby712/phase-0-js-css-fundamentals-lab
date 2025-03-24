@@ -1,0 +1,118 @@
+.navbar {
+    background-color : #333;
+    font-size : 1.2em; 
+    padding : 1em;
+    text-align: center;
+    position : fixed;
+    width : 100%;
+    top : 0 ;
+    z-index : 1000;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  .navbar ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main {
+    padding-top: 5em; /* To ensure content isn't hidden behind the fixed navbar */
+  }
+  main section {
+    padding: 2em 1em;
+    text-align: center;
+  }
+  .home {
+    font-size: 2.5em; /* Increase font size of main heading */
+    margin-bottom: 0.5em; /* Add margin below the heading */
+  }
+  
+.home p {
+    font-size: 1.2em; /* Set paragraph font size */
+    color: #666; /* Set paragraph color */
+  }
+  .portfolio-container {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-around; /* Space out the items evenly */
+    padding: 1em; /* Add padding around the container */
+  }
+  .portfolio-item {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ddd; /* Add a border */
+    margin: 1em; /* Add margin around each item */
+    padding: 1em; /* Padding on all sides */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 30%; /* Set width of each item */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: transform 0.3s; /* Apply transition for transform property */
+  }
+  .portfolio-item:hover {
+    transform: scale(1.05); /* Apply scaling effect when hovered */
+  }
+  .portfolio-item h3 {
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0.5em; /* Add margin below the heading */
+  }
+  .portfolio-item p {
+    margin-bottom: 0.5em; /* Add margin below the paragraph */
+    color: #666; /* Set paragraph color */
+  }
+  .portfolio-item img {
+    width: 100%; /* Set image width to 100% */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Apply box shadow */
+  }
+  .portfolio-item:hover {
+    transform: scale(1.05); /* Apply scaling effect when hovered */
+  }
+  .portfolio-container {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-around; /* Space out the items evenly */
+    padding: 1em; /* Add padding around the container */
+  }
+  .portfolio-item {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ddd; /* Add a border */
+    margin: 1em; /* Add margin around each item */
+    padding: 1em; /* Padding on all sides */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 30%; /* Set width of each item */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: transform 0.3s ease-in-out; /* Apply transition for transform property */
+  }
+  .portfolio-item:hover {
+    transform: scale(1.05); /* Apply scaling effect when hovered */
+  }
+  .portfolio-item h3 {
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0.5em; /* Add margin below the heading */
+  }
+  .portfolio-item p {
+    margin-bottom: 0.5em; /* Add margin below the paragraph */
+    color: #666; /* Set paragraph color */
+  }
+  .portfolio-item img {
+    width: 100%; /* Set image width to 100% */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Apply box shadow */
+  }
+  #footer {
+    background-color: #222; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 2em; /* Add padding */
+    text-align: center; /* Center-align the text */
+    position: relative; /* Set position relative */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Set the width to 100% */
+  }
+  
